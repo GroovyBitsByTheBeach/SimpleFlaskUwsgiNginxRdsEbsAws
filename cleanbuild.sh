@@ -1,5 +1,4 @@
 #!/bin/bash
-cd "/Users/russhelfand/p1vot/test5"
 docker kill test5container
 docker rm $(docker ps -a -q)
 docker rmi $(docker images -q)
